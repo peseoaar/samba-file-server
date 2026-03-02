@@ -147,19 +147,19 @@ smbclient -L //192.168.0.10 -U teste
 
 ### Status do Serviço
 
-![Status do smbd](images/status-smbd.png)
+![Status do smbd](imagens/status-smbd.png)
 
 ### Teste via smbclient
 
-![Teste smbclient](images/teste-smbclient.png)
+![Teste smbclient](imagens/teste-smbclient.png)
 
 ### Acesso pelo Linux
 
-![Acesso Linux](images/acesso-linux.png)
+![Acesso Linux](imagens/acesso-linux.png)
 
 ### Permissões do Diretório
 
-![Permissões](images/permissoes.png)
+![Permissões](imagens/permissoes.png)
 
 ------------------------------------------------------------------------
 
