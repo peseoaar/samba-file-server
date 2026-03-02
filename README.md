@@ -1,6 +1,6 @@
 # Servidor de Arquivos com Samba
 
-## 📌 Descrição
+## Descrição
 
 Implementação de um servidor de arquivos utilizando **Samba** em
 ambiente Linux, permitindo compartilhamento entre máquinas Linux e
@@ -12,7 +12,7 @@ de segurança.
 
 ------------------------------------------------------------------------
 
-## 🖥 Ambiente
+## Ambiente
 
 -   Ubuntu Server 22.04 LTS\
 -   Samba\
@@ -22,7 +22,7 @@ de segurança.
 
 ------------------------------------------------------------------------
 
-## 🌐 Topologia
+## Topologia
 
     Cliente (Linux/Windows)
             ↓
@@ -36,7 +36,7 @@ Acesso ao compartilhamento:
 
 ------------------------------------------------------------------------
 
-## ⚙️ Instalação
+## Instalação
 
 ``` bash
 sudo apt update
@@ -51,7 +51,7 @@ systemctl status smbd
 
 ------------------------------------------------------------------------
 
-## 👤 Configuração do usuário
+## Configuração do usuário
 
 Criação do usuário no sistema:
 
@@ -68,7 +68,7 @@ sudo smbpasswd -a teste
 
 ------------------------------------------------------------------------
 
-## 📂 Criação do diretório compartilhado
+## Criação do diretório compartilhado
 
 ``` bash
 sudo mkdir -p /home/teste/sambashare
@@ -119,7 +119,7 @@ testparm
 
 ------------------------------------------------------------------------
 
-## 🔐 Medidas de Segurança
+## Medidas de Segurança
 
 -   Acesso anônimo desativado
 -   Autenticação obrigatória
@@ -129,7 +129,7 @@ testparm
 
 ------------------------------------------------------------------------
 
-## 🧪 Testes Realizados
+## Testes Realizados
 
 -   Conexão via cliente Linux
 -   Conexão via cliente Windows
@@ -167,7 +167,7 @@ Solução: reinício com `systemctl restart smbd`
 
 ------------------------------------------------------------------------
 
-## 🚀 Melhorias Futuras
+## Melhorias Futuras
 
 -   Implementar múltiplos grupos com permissões distintas
 -   Restringir acesso por faixa de IP
@@ -175,13 +175,3 @@ Solução: reinício com `systemctl restart smbd`
 -   Implementar monitoramento do serviço
 -   Integração com Active Directory
 
-------------------------------------------------------------------------
-
-## 🧠 Competências Desenvolvidas
-
--   Administração de serviços Linux
--   Gerenciamento de usuários
--   Controle de permissões (chmod, chown)
--   Configuração de serviços de rede
--   Troubleshooting básico
--   Validação de conectividade e autenticação
