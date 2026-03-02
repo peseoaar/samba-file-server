@@ -157,9 +157,6 @@ smbclient -L //192.168.0.10 -U teste
 
 ![Acesso Linux](imagens/acesso-linux.png)
 
-### Permissões do Diretório
-
-![Permissões](imagens/permissoes.png)
 
 ------------------------------------------------------------------------
 
